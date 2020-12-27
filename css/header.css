@@ -1,0 +1,33 @@
+
+nav {
+    background-color: #0C2427;
+    color: #FCF0F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav ul {
+    display: flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: 200;
+}
+
+nav ul li {
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav ul li button {
+    background-color: #FCF0F2;
+    color: #0C2427;
+    padding: 3px;
+    border-radius: 7px;
+}
